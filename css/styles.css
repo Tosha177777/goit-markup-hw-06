@@ -825,8 +825,14 @@ img {
   min-height: 576px;
 
   background-color: var(--modal-window);
+
   border-radius: 4px;
-  padding: 24px;
+
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 72px;
+  padding-bottom: 24px;
+
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 
@@ -874,7 +880,6 @@ img {
   font-size: 16px;
   line-height: 1.5;
 
-  margin-top: 48px;
   margin-bottom: 16px;
   text-align: center;
   letter-spacing: 0.02em;
@@ -907,13 +912,14 @@ img {
 
 .modal-input-box {
   position: relative;
+
+  margin-bottom: 8px;
 }
 
 .modal-input {
   display: inline-block;
   margin: 0;
   padding: 0;
-  margin-bottom: 8px;
   padding-left: 38px;
 
   width: 100%;
