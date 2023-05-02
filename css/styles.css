@@ -1043,6 +1043,10 @@ img {
 }
 
 .privacy-modal-link {
+  font-weight: var(--font-weight-regular);
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
   color: var(--order-button-color);
 }
 
